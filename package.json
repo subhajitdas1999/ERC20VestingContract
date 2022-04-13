@@ -1,0 +1,22 @@
+{
+  "name": "erc20vestingcontract",
+  "version": "1.0.0",
+  "description": "erc20 token vesting contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhajitdas1999/ERC20VestingContract.git"
+  },
+  "author": "Subhajit Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhajitdas1999/ERC20VestingContract/issues"
+  },
+  "homepage": "https://github.com/subhajitdas1999/ERC20VestingContract#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.3"
+  }
+}
