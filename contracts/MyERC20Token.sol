@@ -12,7 +12,7 @@ contract MyERC20Token is ERC20,Ownable{
     }
     //mint tokensBits
     function mint(uint _tokenSupply) public onlyOwner{
-        _mint(owner(),_tokenSupply);
+        _mint(owner(),_tokenSupply*(10**decimals()));
     }
     //burn Token Bits
     function burn(uint _tokenBitsAmount) public onlyOwner{
